@@ -1,0 +1,194 @@
+body{
+    background-color: #161b22;
+    color: #c8d1d9;
+}
+
+a{
+    color: #58a6ff;
+}
+
+ul{
+    margin: 0px;
+    padding-inline-start: 0px;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.main{
+    background-color: #0d1117;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.content{
+  margin-top: 10px;
+}
+.contentLeft{
+    float: left;
+    width: 65%;
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.contentRight{
+    float: left;
+    width: 35%;
+}
+
+.headerTop, .headerMiddle{
+    margin-bottom: 15px;
+}
+
+.linksLeft{
+    float: left;
+}
+
+.linksRight{
+    float: right;
+}
+
+.linksRight ul li{
+    display: inline-block;
+    margin-left: 10px;
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+/* new */
+.linksRight ul li:last-of-type{
+    border-right: 0 none;
+}
+
+
+.headerMiddle .logoLeft,
+.headerMiddle .logoCenter,
+.headerMiddle .logoRight {
+    float: left;
+    width: 33.33%;
+}
+
+.headerMiddle .logoLeft img{
+    width: 100%;
+    max-width: 200px;
+}
+
+.headerMiddle .logoCenter{
+    text-align: center;
+}
+
+
+.headerMiddle .logoCenter h1{
+    line-height: 26px; 
+}
+
+.headerMiddle .logoRight{
+    text-align: right;
+}
+
+.headerMiddle .logoRight input[type="search"]{
+    background-color: #0d1117;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.searchField{
+    position: relative;
+}
+
+
+.searchField i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: grey;
+    cursor: pointer;
+}
+
+
+.contentLeft .image{
+    float: left;
+    width: calc(20% - 10px);
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+.contentLeft .newsInfo{
+    float: left;
+    width: 80%;
+    padding-top: 5px;
+}
+
+.linksMenu li{
+color: whites;
+display: inline-block;
+border-right:1px solid white;
+padding-right: 10px;
+}
+
+.linksMenu ul li:last-of-type{
+  border-right:  0 none;
+}
+
+.linksL{
+  Float:left;
+}
+
+.linksR{
+  float: right;
+}
+
+.clear{
+  clear: both;
+}
+
+.linksL li{
+  padding-left: 10px;
+}
+
+.linksL ul{
+  margin-left:10px;
+}
+
+.secondMenu ul li{
+  display:inline-block;
+  text-transform: uppercase;
+  border-right:1px solid #6b90da;
+  background-color: #192b44;
+  color: #c8d1d9;
+  padding-right: 10px;
+}
+
+.panda{
+  float:right;
+  padding-top: 22px;
+}
+
+@media screen and (max-width: 900px){
+  .contentRight{
+    display: none;
+  }
+
+  .contentLeft {
+    width: 100%;
+  }
+
+  .secondMenu{
+    display: none;
+  }
+
+  .linksMenu{
+    display: none;
+  }
+  .headerTop{
+    display: none;
+  }
+ 
+  }
+.logocenter{
+    display: none;
+  }
+}
